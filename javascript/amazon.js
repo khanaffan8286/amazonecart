@@ -77,8 +77,13 @@ document.querySelectorAll('.js-add-cart').forEach((button) => {
                 productId : productId,
                 quantity : 1
             });
+        let cartquantity =0 ;
         
-        console.log(cart);
+        cart.forEach((item) => {
+            cartquantity += item.quantity;
+        });
+       
+        document.querySelector('.js-cart-quantity').innerHTML  = cartquantity;
     });
 });
 
