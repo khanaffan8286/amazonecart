@@ -9,8 +9,8 @@ const product = [
         price : 200
     },
     {
-        image : '',
-        name : '',
+        image : 'images/products/intermediate-composite-basketball.jpg',
+        name : ' Intermediate Size Basketball',
         rating : {
             stars : 4.5,
             count : 234
@@ -18,8 +18,8 @@ const product = [
         price : 232
     },
     {
-        image : '',
-        name : '',
+        image : 'images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg',
+        name : 'Adults Plain Cotton T-Shirt - 2 Pack',
         rating : {
             stars : 4.5,
             count : 321
